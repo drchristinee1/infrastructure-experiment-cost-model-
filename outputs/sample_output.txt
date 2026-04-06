@@ -1,0 +1,20 @@
+Usage Impact
+------------
+additional_daily_requests: 96,000.000000
+additional_lambda_invocations: 96,000.000000
+additional_lambda_gb_seconds: 12,000.000000
+additional_dynamodb_reads: 192,000.000000
+additional_dynamodb_writes: 19,200.000000
+additional_log_volume_kb: 576,000.000000
+log_volume_gb: 0.549316
+
+Cost Output
+-----------
+lambda_request_cost: 0.019200
+lambda_compute_cost: 0.200004
+dynamodb_read_cost: 0.024000
+dynamodb_write_cost: 0.012000
+cloudwatch_log_cost: 0.274658
+total_daily_cost_impact: 0.529862
+total_monthly_cost_impact: 15.895866
+annualized_cost_impact: 193.399704
